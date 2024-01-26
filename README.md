@@ -67,13 +67,13 @@ Este proyecto es un Sistema de Gestión de Proyectos desarrollado en Angular 14.
 1. **Descargar paquetes adicionales utilizados en la aplicación:**
 	- ng add @angular/material@14.2.7
 	
-		- Responder "Y" para proceder.
+		- Would you like to preceed? (Y/n) Y.
 		
-		- Elegir el tema preconstruido "Indigo/Pink".
+		- Choose a prebuilt theme name, or "custom" for a custom theme: "Indigo/Pink".
 		
-		- Responder "Y" para configurar estilos globales de tipografía de Angular Material.
+		- Set up global Angular Material typography styles? (y/N) y.
 		
-		- Elegir la opción para incluir y habilitar animaciones.
+		- Include the Angular animations module? "Incluide and enable animations".
 		
 	- npm install sweetalert2@11.6.16
 	
@@ -118,6 +118,7 @@ Paginacion usuario
 ![3](https://github.com/LuisLiriano03/App_Work_Shop/assets/89108238/7fe2fe97-9886-4aea-9979-5b31c630f017)
 
 Agregar usuario, editarlo y eliminarlo, haicendo uso de validaciones si deja un campo vacio.
+- Si el Administrador va a eliminar un proyectos cual tiene un usuario asignado no podra borrar porque tiene un proyecto asignado, debera primero desvincular ese usuario de todos los proyectos que esta asignado como eliminar los proyectos o cambiar de usuario para delegarle esos proyectos.
 
 ![4](https://github.com/LuisLiriano03/App_Work_Shop/assets/89108238/34c6bf90-9c49-4482-a260-a64713a159bf)
 
@@ -135,7 +136,7 @@ Paginacion asignar proyectos a usuarios.
 
 ![10](https://github.com/LuisLiriano03/App_Work_Shop/assets/89108238/18452009-e2e7-49e0-99d7-051cfa8ab320)
 
-Agregar usuario, editarlo y eliminarlo, haicendo uso de validaciones si deja descripcion vacio.
+Agregar usuario, editarlo y eliminarlo, haciendo uso de validaciones si deja descripcion vacio.
 
 ![11](https://github.com/LuisLiriano03/App_Work_Shop/assets/89108238/5bbc5621-96f0-4c0f-b165-894ef282d59a)
 
