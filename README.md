@@ -24,6 +24,10 @@ Este proyecto es un Sistema de Gestión de Proyectos desarrollado en Angular 14.
 
 	- Los usuarios tienen acceso a una lista de proyectos asignados, mostrando únicamente los proyectos asignados por el administrador.
 
+**Entorno de desarrollo**
+
+- Visual Studio Code 2022
+
 **Versión de la aplicación**
 
 - Angular CLI: 14.2.0
